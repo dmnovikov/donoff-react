@@ -1,13 +1,7 @@
-## Documentation
-Subscribe in Terminal
-```
-mqtt sub -t '@near/demo' -h test.mosca.io
-```
+## DOC
 
-Publish in Terminal
-```
-mqtt pub -t '@near/demo' -h test.mosca.io -m 'from commandline'
-```
+Very early 
+
 
 ## Bootstrapped
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

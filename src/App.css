@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+} 
+
+.donoff-info {
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: rgb(45, 174, 197);
+}
+
+.donoff-list {
+  text-align: left;
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: rgb(45, 174, 197);
+}
+
+.donoff-log{
+  text-align: left;
+  background-color: rgb(4, 23, 34);
+  /* height: 150px; */
+  padding: 20px;
+  color: rgb(71, 129, 71);
+}
+
+.donoff-log-item{
+  font-size: x-small;
+}
+
+.donoff-info-item{
+  color: rgb(71, 129, 71);
+}
+
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
