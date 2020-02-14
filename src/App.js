@@ -51,8 +51,8 @@ class App extends Component {
     var _mqttProps={   
             host: 'ns.lab240.ru',
             port:9001,
-            username: 'gleb',
-            password: '12344321'
+            username: process.env.REACT_APP_USER,
+            password: process.env.REACT_APP_PASS
         
     }
     return (
