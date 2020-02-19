@@ -27,6 +27,8 @@
   /* height: 150px; */
   padding: 20px;
   color: rgb(45, 174, 197);
+  border: 1px solid aqua;
+  width: 200px;
 }
 
 .donoff-log{

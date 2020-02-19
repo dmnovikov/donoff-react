@@ -4,29 +4,22 @@ import './App.css';
 
 export default class SupplyLog extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {date1: new Date()};
-  }
-
   components = {
     log: '',
     logs:[]
   };
   
   render() {
-    console.log("LOG", this.props.topic_data)
+    // console.log("LOG", this.props.topic_data)
     if(this.props.topic_data.short_topic===process.env.REACT_APP_TOPIC_LOG){
-      this.components.log+="<div>>"+this.props.data.message+"</div>";
-      this.components.logs.push(this.props.data.message)
+      // this.components.log+="<div>"+ this.props.topic_data.dev  + ">>"+this.props.topic_data.message+"</div>";
+      this.components.logs.push(this.props.topic_data.message)
       console.log(this.components.logs)
    }
 
    if(this.components.logs.length>4) this.components.logs.shift()
 
-   const dataList = this.components.logs.map((d, i) => <div className="donoff-log-item" key={i}>>{d}</div>)
-
-   
+   const dataList = this.components.logs.map((d, i) => <div className="donoff-log-item" key={i}>{this.props.topic_data.dev}: {d}</div>)
 
 
     return (
