@@ -2,7 +2,7 @@
   "name": "mqtt-react-demo",
   "version": "0.1.0",
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "html-react-parser": "^0.10.1",
